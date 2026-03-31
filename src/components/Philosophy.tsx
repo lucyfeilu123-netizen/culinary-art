@@ -11,7 +11,7 @@ export function Philosophy() {
   return (
     <section id="philosophy" className="py-40 max-md:py-24 max-sm:py-[72px]">
       <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5">
-        <div className="grid grid-cols-[5fr_7fr] gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
+        <div className="grid grid-cols-2 gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
           <FadeUp>
             <div
               className="p-[10px] border border-[var(--border-subtle)]"

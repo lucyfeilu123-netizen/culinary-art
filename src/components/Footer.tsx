@@ -63,7 +63,7 @@ export function Footer() {
             </h4>
             <p className="text-sm mb-3">742 Rue de la Gastronomie</p>
             <p className="text-sm mb-3">San Francisco, CA 94102</p>
-            <p className="text-sm mb-3">+1 (415) 738-2941</p>
+            <p className="text-sm mb-3">+1 (415) 590-1347</p>
           </div>
 
           <div>

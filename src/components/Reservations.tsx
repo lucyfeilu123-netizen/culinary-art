@@ -26,7 +26,7 @@ const details = [
       </svg>
     ),
     title: "Telephone",
-    text: "+1 (415) 738-2941",
+    text: "+1 (415) 590-1347",
   },
   {
     icon: (

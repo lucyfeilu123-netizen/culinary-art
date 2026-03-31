@@ -13,7 +13,7 @@ export function Hero() {
     >
       <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5 w-full">
         <div className="grid grid-cols-2 gap-16 items-center max-md:grid-cols-1 max-md:gap-12">
-          <div className="pr-6 max-md:pr-0 max-md:order-1">
+          <div className="max-md:order-1">
             <FadeUp>
               <SectionTag>Est. 2024 &mdash; Culinary Atelier</SectionTag>
             </FadeUp>

@@ -5,7 +5,7 @@ export function Chef() {
   return (
     <section id="chef" className="py-40 max-md:py-24 max-sm:py-[72px]">
       <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5">
-        <div className="grid grid-cols-[7fr_5fr] gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
+        <div className="grid grid-cols-2 gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
           <div>
             <FadeUp>
               <SectionTag>The Chef</SectionTag>
@@ -47,7 +47,7 @@ export function Chef() {
                 style={{ color: "var(--espresso-mid)", lineHeight: 1.8 }}
               >
                 After two decades spanning the kitchens of Lyon, Copenhagen, and
-                Tokyo, Chef Laurent Marchand returned to build something deeply
+                Tokyo, Chef Lucy Lu returned to build something deeply
                 personal. Atelier is not merely a restaurant &mdash; it is an
                 ongoing study in restraint, where the discipline of classical
                 French technique meets the quiet boldness of modern Nordic
@@ -61,7 +61,7 @@ export function Chef() {
                   className="text-xl font-semibold"
                   style={{ fontFamily: "var(--font-playfair), serif" }}
                 >
-                  Laurent Marchand
+                  Lucy Lu
                 </span>
                 <span
                   className="text-[0.8125rem] uppercase tracking-[0.1em] font-medium"
@@ -91,7 +91,7 @@ export function Chef() {
               >
                 <img
                   src="https://picsum.photos/seed/chefportrait26/600/750"
-                  alt="Chef Laurent Marchand"
+                  alt="Chef Lucy Lu"
                   loading="lazy"
                   className="transition-transform duration-700 hover:scale-[1.04]"
                   style={{ transitionTimingFunction: "var(--ease-smooth)" }}
