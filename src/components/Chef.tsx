@@ -4,7 +4,7 @@ import { SectionTag } from "./SectionTag";
 export function Chef() {
   return (
     <section id="chef" className="py-40 max-md:py-24 max-sm:py-[72px]">
-      <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5">
+      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5">
         <div className="grid grid-cols-2 gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
           <div>
             <FadeUp>

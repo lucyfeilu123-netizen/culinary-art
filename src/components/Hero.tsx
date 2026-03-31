@@ -11,7 +11,7 @@ export function Hero() {
       className="flex items-center"
       style={{ minHeight: "100dvh", padding: "140px 0 96px" }}
     >
-      <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5 w-full">
+      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5 w-full">
         <div className="grid grid-cols-2 gap-16 items-center max-md:grid-cols-1 max-md:gap-12">
           <div className="max-md:order-1">
             <FadeUp>
@@ -22,7 +22,7 @@ export function Hero() {
                 className="font-extrabold mb-7"
                 style={{
                   fontFamily: "var(--font-playfair), serif",
-                  fontSize: "clamp(3.2rem, 6.5vw, 6rem)",
+                  fontSize: "clamp(3rem, 5.5vw, 5rem)",
                   lineHeight: 1.05,
                 }}
               >
@@ -99,7 +99,7 @@ export function Hero() {
                   </div>
                 </div>
                 <div
-                  className="absolute bottom-12 -left-12 z-2 max-md:left-[-12px] max-md:bottom-6"
+                  className="absolute bottom-12 left-4 z-2 max-md:left-3 max-md:bottom-6"
                   style={{
                     background: "var(--warm-white)",
                     padding: "22px 28px",

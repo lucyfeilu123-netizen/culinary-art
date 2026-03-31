@@ -54,7 +54,7 @@ export function MenuSection() {
       className="py-40 max-md:py-24 max-sm:py-[72px]"
       style={{ background: "var(--cream-dark)" }}
     >
-      <div className="max-w-[1320px] mx-auto px-12 max-lg:px-9 max-md:px-6 max-sm:px-5">
+      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5">
         <div className="text-center mb-16">
           <FadeUp>
             <div className="flex justify-center">
