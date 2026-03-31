@@ -11,9 +11,9 @@ export function Hero() {
       className="flex items-center"
       style={{ minHeight: "100dvh", padding: "140px 0 96px" }}
     >
-      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5 w-full">
+      <div className="w-full" style={{ maxWidth: 1200, margin: "0 auto", paddingLeft: 64, paddingRight: 64 }}>
         <div className="grid grid-cols-2 gap-16 items-center max-md:grid-cols-1 max-md:gap-12">
-          <div className="max-md:order-1">
+          <div className="max-md:order-1 overflow-hidden">
             <FadeUp>
               <SectionTag>Est. 2024 &mdash; Culinary Atelier</SectionTag>
             </FadeUp>
@@ -22,7 +22,7 @@ export function Hero() {
                 className="font-extrabold mb-7"
                 style={{
                   fontFamily: "var(--font-playfair), serif",
-                  fontSize: "clamp(3rem, 5.5vw, 5rem)",
+                  fontSize: "clamp(2.5rem, 4.5vw, 4.25rem)",
                   lineHeight: 1.05,
                 }}
               >

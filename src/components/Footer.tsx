@@ -17,7 +17,7 @@ export function Footer() {
       className="pt-20 pb-10"
       style={{ background: "var(--charcoal)", color: "rgba(250,247,242,0.6)" }}
     >
-      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5">
+      <div className="w-full max-md:px-6 max-sm:px-5" style={{ maxWidth: 1200, margin: "0 auto", paddingLeft: 64, paddingRight: 64 }}>
         <div className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-12 mb-16 max-md:grid-cols-2 max-md:gap-8 max-sm:grid-cols-1">
           <div className="max-md:col-span-2 max-sm:col-span-1">
             <h3

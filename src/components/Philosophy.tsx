@@ -10,7 +10,7 @@ const stats = [
 export function Philosophy() {
   return (
     <section id="philosophy" className="py-40 max-md:py-24 max-sm:py-[72px]">
-      <div className="max-w-[1280px] mx-auto px-16 max-lg:px-10 max-md:px-6 max-sm:px-5">
+      <div className="w-full max-md:px-6 max-sm:px-5" style={{ maxWidth: 1200, margin: "0 auto", paddingLeft: 64, paddingRight: 64 }}>
         <div className="grid grid-cols-2 gap-20 items-center max-lg:gap-12 max-md:grid-cols-1">
           <FadeUp>
             <div
